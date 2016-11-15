@@ -1,0 +1,63 @@
+body {
+  background-image: url("../img/cork-board.jpg");
+  padding: 100px;
+}
+
+.red-pin {
+  width: 100px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.red-pin2 {
+  width: 100px;
+  position: absolute;
+  right: 158px;
+  top: -78px;
+  transform: rotate(50deg);
+}
+
+.lady {
+  width: 406px;
+  position: absolute;
+  right: 200px;
+  top: -9px;
+}
+
+.lips {
+  width: 406px;
+  position: absolute;
+  left: 84px;
+  top: 90px;
+}
+
+.polaroid {
+  width: 600px;
+  height: 800px;
+  position: absolute;
+}
+
+.polaroid2 {
+  width: 600px;
+  height: 750px;
+  position: absolute;
+  right: 90px;
+  top: -90px;
+}
+
+.container {
+  transform: rotate(10deg);
+  position: absolute;
+  width: 600px;
+  height: 750px;
+}
+
+.containerTwo {
+  transform: rotate(-5deg);
+  position: relative;
+  right: -800px;
+  width: 600px;
+  height: 750px;
+
+}
