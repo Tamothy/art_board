@@ -1,6 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+
+$hotpink: #EC5D62;
+
 body {
   background-image: url("../img/cork-board.jpg");
   padding: 100px;
+}
+
+.hover:hover {
+  filter: brightness(.9);
+}
+
+.paper {
+  position: absolute;
+  left: 700px;
+  top: 1300px;
+}
+
+.quote {
+  font-family: 'Yellowtail', cursive;
+  font-size: 60px;
+  position:absolute;
+  left: 800px;
+  top: 1275px;
+  transform: rotate(20deg);
+  text-shadow: 2px 2px 4px $hotpink,
+  -2px -2px 4px $hotpink,
+  -2px 2px 4px $hotpink,
+  2px -2px 4px $hotpink;
 }
 
 .red-pin {
@@ -18,6 +45,29 @@ body {
   transform: rotate(50deg);
 }
 
+.red-pin3 {
+  width: 100px;
+  position: absolute;
+  right: 50px;
+  top: -45px;
+  transform: rotate(50deg);
+}
+
+.red-pin4 {
+  width: 100px;
+  position: absolute;
+  left: 130px;
+  top: 1140px;
+  transform: rotate(-20deg);
+}
+
+.glasses {
+  width: 406px;
+  position: absolute;
+  right: 100px;
+  top: 10px;
+}
+
 .lady {
   width: 406px;
   position: absolute;
@@ -30,6 +80,13 @@ body {
   position: absolute;
   left: 84px;
   top: 90px;
+}
+
+.retro {
+  width: 406px;
+  position: absolute;
+  left: 200px;
+  top: 1200px;
 }
 
 .polaroid {
@@ -46,6 +103,22 @@ body {
   top: -90px;
 }
 
+.polaroid3 {
+  width: 600px;
+  height: 750px;
+  position: absolute;
+  right: -10px;
+  top: -50px;
+}
+
+.polaroid4 {
+  width: 570px;
+  height: 720px;
+  position: absolute;
+  left: 130px;
+  top: 1120px;
+}
+
 .container {
   transform: rotate(10deg);
   position: absolute;
@@ -59,5 +132,27 @@ body {
   right: -800px;
   width: 600px;
   height: 750px;
+}
 
+.containerThree {
+  transform: rotate(-5deg);
+  position: relative;
+  right: -900px;
+  width: 600px;
+  height: 750px;
+}
+
+.containerFour {
+  transform: rotate(4deg);
+  position: relative;
+  left: -50px;
+  top: -1800px;
+  width: 600px;
+  height: 750px;
+}
+
+.containerFive {
+  position: absolute;
+  top: -350px;
+  left: -25px;
 }
